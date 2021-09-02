@@ -33,6 +33,8 @@ main {
   width: 830px;
   height: 800px;
   grid-area: left;
+  background-image: url("/images/bg-pattern-desktop.svg");
+  background-color: hsl(0, 100%, 98%);
 }
 
 .right {
