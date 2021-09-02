@@ -93,6 +93,7 @@ main {
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  border-style: none;
 }
 
 input {
@@ -100,7 +101,22 @@ input {
   height: 53px;
   border-radius: 45px;
   border: 1px solid hsl(0, 6%, 24%, 20%);
-  background-color: hsl(0, 100%, 98%, 0%);
+  background-color: rgb(255, 255, 255);
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: hsl(0, 74%, 74%, 50%);
+  font-size: 15px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.email {
+  padding-left: 20px;
 }
 
 button {
