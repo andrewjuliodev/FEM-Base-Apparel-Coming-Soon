@@ -34,8 +34,13 @@ main {
   width: 830px;
   height: 800px;
   grid-area: left;
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.bg {
   background-image: url("/images/bg-pattern-desktop.svg");
-  background-color: hsl(0, 100%, 98%);
+  width: 830px;
+  height: 800px;
 }
 
 .right {
@@ -95,7 +100,8 @@ button {
   border-radius: 45px;
   border: none;
   margin-left: -100px;
-  background: linear-gradient(hsl(0, 100%, 98%), hsl(0, 74%, 74%));
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: 5px 15px 40px -15px hsl(0, 6%, 24%);
 }
 
 .error {
