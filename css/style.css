@@ -101,7 +101,7 @@ input {
   height: 53px;
   border-radius: 45px;
   border: 1px solid hsl(0, 6%, 24%, 20%);
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0);
 }
 
 input:focus {
@@ -111,11 +111,14 @@ input:focus {
 ::placeholder {
   color: hsl(0, 74%, 74%, 50%);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .email {
   padding-left: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  color: hsl(0, 6%, 24%);
 }
 
 button {
