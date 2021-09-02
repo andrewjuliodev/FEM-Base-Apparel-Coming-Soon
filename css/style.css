@@ -82,9 +82,9 @@ main {
 
 input {
   width: 445px;
-  height: 55px;
+  height: 53px;
   border-radius: 45px;
-  border: 1px solid hsl(0, 36%, 70%);
+  border: 1px solid hsl(0, 6%, 24%, 20%);
   background-color: hsl(0, 100%, 98%, 0%);
 }
 
@@ -93,8 +93,11 @@ button {
   height: 55px;
   border-radius: 45px;
   border: none;
+  margin-left: -100px;
+  background: linear-gradient(hsl(0, 100%, 98%), hsl(0, 74%, 74%));
 }
 
 .error {
   margin-left: 160px;
+  display: none;
 }
