@@ -51,7 +51,7 @@ main {
 .heavyPink,
 .heavy {
   font-size: 64px;
-  letter-spacing: 14px;
+  letter-spacing: 16px;
 }
 
 .heavyPink {
@@ -64,6 +64,7 @@ main {
   font-weight: 600;
   margin: 5px 0 0 160px;
   line-height: 70px;
+  color: hsl(0, 6%, 24%);
 }
 
 .light {
